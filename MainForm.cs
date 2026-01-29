@@ -1,4 +1,7 @@
+using System;
+using System.IO;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace PulledPropertyApp;
 
@@ -359,3 +362,4 @@ public class MainForm : Form
             lstAttach.Items.RemoveAt(lstAttach.SelectedIndex);
     }
 }
+
