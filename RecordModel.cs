@@ -1,3 +1,5 @@
+using System;
+
 namespace PulledPropertyApp;
 
 public class RecordModel
@@ -29,3 +31,4 @@ public class RecordModel
     // حالة المرسوم
     public string DecreeStatus { get; set; } = "غير منجز";
 }
+
