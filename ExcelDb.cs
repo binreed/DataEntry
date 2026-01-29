@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+using System.Linq;
 using ClosedXML.Excel;
 
 namespace PulledPropertyApp;
@@ -176,3 +179,4 @@ public class ExcelDb
         ws.Columns().AdjustToContents();
     }
 }
+
